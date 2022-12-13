@@ -1,0 +1,12 @@
+import numpy as np
+
+arr1 = np.arange(10)
+arr1 = arr1.reshape(2,5)
+print('array1=:\n', arr1)
+
+arr2 = np.arange(20,30)
+arr2 = arr2.reshape(2,5)
+print('array2=:\n', arr2)
+
+print('\nsum of the two arrays=', arr1 + arr2)
+print('\nproduct of two arrays=', arr1 *arr2)
